@@ -1,0 +1,12 @@
+.container {
+    margin: 0 auto;
+    width: min(100% - 2rem, 1400px);
+
+    &--sm {
+        width: min(100% - 2rem, 500px);
+    }
+}
+
+.container~.container {
+    margin-top: 3rem;
+}

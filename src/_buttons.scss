@@ -1,0 +1,25 @@
+.btn {
+    padding: .3rem .5rem;
+    cursor: pointer;
+    border: none;
+    outline: 1px solid black;
+
+    &--disabled {
+        cursor: not-allowed;
+        background-color: grey;
+        outline: 1px solid grey;
+        border: none;
+        color: black
+    }
+
+    &--outline {
+        outline: 1px solid blue;
+        background: none;
+    }
+
+    &--active {
+        background: rgb(190, 255, 11);
+        color: rgb(189, 97, 255);
+        outline: 1px solid rgb(189, 97, 255);
+    }
+}

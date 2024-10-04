@@ -1,0 +1,18 @@
+  // custom-css-framework.scss
+  // Importing variables first as they will be used throughout other files
+  @import 'variables';
+
+  // Import functions and mixins after variables
+  @import 'functions';
+  @import "mixins";
+
+  // Import the rest of the styles
+  @import 'reset';
+  @import 'typography';
+  @import 'base';
+  @import 'buttons';
+  @import 'forms';
+  @import 'lists';
+  @import 'layout';
+  @import 'tables';
+  @import 'utilities';
