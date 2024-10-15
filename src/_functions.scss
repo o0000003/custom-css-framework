@@ -1,0 +1,7 @@
+@function px-to-rem($px, $base: 16px) {
+    @return $px / $base * 1rem;
+  }
+
+@function responsive-font-size($size, $factor: 1.2) {
+    @return $size * $factor;
+  }
