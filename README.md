@@ -8,3 +8,10 @@
 - Utility classes for spacing, colors, typography, and more
 - Pre-styled components like buttons, forms, and tables
 - Consistent design across all elements
+
+## Usage Examples
+- Text
+- Buttons
+- Forms
+- Tables
+- Customization - updating variables with custom changes and recompiling for results
