@@ -1,11 +1,5 @@
-// border-radius
-
-.br--20 {
-    border-radius: 2rem;
-}
-
-.my {
-    &--3 {
-        margin: 3rem 0;
-    }
-}
+.text-primary { color: $primary-color; }
+.bg-secondary { background-color: $secondary-color; }
+.m-1 { margin: spacing(1); }
+.p-2 { padding: spacing(2); }
+.border-rounded { border-radius: $border-radius; }
