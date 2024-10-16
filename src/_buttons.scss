@@ -23,3 +23,15 @@
         outline: 1px solid rgb(189, 97, 255);
     }
 }
+.btn--ghost {
+    background: transparent;
+    border: 1px solid $primary-color;
+  }
+  
+  .btn--rounded {
+    border-radius: 50px;
+  }
+  
+  .btn:hover {
+    background-color: darken($primary-color, 10%);
+  }

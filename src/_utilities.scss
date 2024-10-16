@@ -3,3 +3,27 @@
 .m-1 { margin: spacing(1); }
 .p-2 { padding: spacing(2); }
 .border-rounded { border-radius: $border-radius; }
+.m-auto {
+    margin: auto;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+  

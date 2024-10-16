@@ -5,4 +5,28 @@
       font-size: $max;
     }
   }
+  @mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @mixin grid-layout($columns: 12, $gap: 1rem) {
+    display: grid;
+    grid-template-columns: repeat($columns, 1fr);
+    grid-gap: $gap;
+  }
+  @mixin responsive-text($min-size, $max-size) {
+    font-size: $min-size;
+    @media (min-width: 768px) {
+      font-size: $max-size;
+    }
+  }
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
   
